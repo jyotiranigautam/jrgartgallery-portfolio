@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Josefin+Sans&display=swap');
+*{
+margin:0;
+padding: 0;
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-nav-collapse{
+  background-image: linear-gradient(to right, rgba(209, 27, 63, 0.61), black);
+
+}
+
+.navbar-brand {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 30px; 
+  margin-left: 80px;
+
+}
+.navbar img{
+  height: 50px;
+}
+.navbar-brand :hover{
+  color: crimson;
+}
+#nav-bar .navbar-nav li{
+  padding-right: 20px;
+}
+
+#nav-bar .navbar-nav .nav-link {
+  color: white;
+  padding-right: 50px;
+}
+#nav-bar .navbar-nav .nav-link .active :hover{
+  color:crimson;
+}
+#nav-bar .navbar-nav .nav-link:hover {
+  color:red;
+  text-underline-position: below;
+  font-weight: 500;
+}
+
+/*-----landing page-------*/
+.landing-div{
+   background: white url("/images/img2.jpeg") no-repeat scroll center;
+   height: 100vh;
+   background-size:cover ;
+   color: white;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.landing-div h2{
+  font-size: 80px;
+}
+.landing-div span{
+  color:rgb(204, 16, 53);
+  font-weight: 600;
+}
+.landing-div .jrg{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.landing-wrapper{
+  background-color: rgba(0, 0, 0, 0.61);
+  height:100%;
+  
+}
+
+/*-------------gallery-----------------*/
+.gallery{
+  background: #111;
+  margin: 0%;
+}
+.gallery .title{
+   color: #fff;
+   padding-top: 1cm;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallery .title::before{
+   content: "";
+   position: absolute;
+   bottom: -0px;
+   height: 3px;
+   width: 220px;
+   background-color: #fff;
+   transform: translateX(-50%);
+   left: 50%;
+   
+   
+}
+
+.gallery .title::after{
+   content: "Let's see the artworks";
+   position: absolute;
+   bottom: -10px;
+   font-size: 20px;
+   background: #000;
+   transform: translateX(-50%);
+   left: 50%;
+   color:crimson;
+   
+}
+
+.gallery{
+    background-color: #000;
+}
+.fit-image{
+   height:100%;
+   width:100%;
+}
+
+/* Image-grid*/
+#my-grid{
+  margin-top: 0px;
+}
+.row{
+  padding-top: z0px;
+}
+.grid-padding img{
+  margin-bottom: 15px;
+  padding-left: 20px;
+  margin-right: 15px;
+  transition: 0.8s ease;
+}
+
+.grid-padding img:hover{
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.918);
+   transition: 0.8s ease;
+}
+
+/*------------About--------------*/
+.about{
+  
+  background-color: black;
+}
+.about img{
+padding-left: 50px;
+padding-bottom: 100px;
+padding-right: 50px;
+border-radius: 50px;
+
+}
+.about a:hover{
+  
+  background-color: white;
+}
+section .title{
+ position: relative;
+ color: white;
+ text-align: center;
+ font-size: 40px;
+ font-weight: 700;
+ margin-bottom: 60px;
+ padding-top:20px ;
+ padding-bottom: 20px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+section .title::before{
+ content: "";
+ position: absolute;
+ bottom: 0px;
+ height: 3px;
+ width: 180px;
+ background:white;
+ transform: translateX(-50%);
+ left: 50%;
+ 
+}
+
+.about .title::after{
+ content: "who i am";
+ position: absolute;
+ bottom: -7px;
+ font-size: 20px;
+ background:black;
+ transform: translateX(-50%);
+ left: 50%;
+ color:crimson;
+ 
+}
+
+.about .about-content{
+ display:flex;
+ flex-wrap: wrap;
+ text-align: justify;
+ justify-content: space-between;
+ padding-left: 40px;
+ padding-top: 30PX;
+ color: white;
+
+}
+section p{
+ align-content: center;
+ padding-top: 0px;
+ padding-right: 50px;
+
+}
+
+
+/*----------------------CONTACT--------------------------*/
+.contact{
+  background: black;
+  margin: 0%; 
+}
+
+.contact p{
+  color: #fff;
+  background-color:rgb(197, 52, 81);
+  margin-top: 30px;
+}
+
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  height: 3px;
+  width: 250px;
+  background:white;
+  transform: translateX(-50%);
+  left: 50%;
+  
+ }
+ 
+ .contact .title::after{
+  content: "Find us on Social Media";
+  position: absolute;
+  bottom: -7px;
+  font-size: 20px;
+  background:black;
+  transform: translateX(-50%);
+  left: 50%;
+  color:crimson;
+  
+ }
+
+ .contact .fa {
+   font-weight:bolder;
+  padding: 20px;
+  font-size: 25px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+.fa:hover{
+  color: black;
+  background-color:rgb(255, 255, 255) ;
+}
+
+.fa-facebook {
+  color: rgb(21, 47, 119);
+  background-color: white;;
+}
+.fa-instagram {
+  color: rgb(133, 17, 81);
+  background-color: white;
+}
+.fa-linkedin {
+  color: rgb(36, 81, 206);
+  background-color: white;
+
+}
+.fa-twitter {
+  color: rgb(109, 142, 233);
+  background-color: white;
+}
+.fa-youtube-play {
+  color: red;
+  background-color: white;
+
+}
+
+
+
+/*-----------------footer-----------------*/
+#footer{
+  
+  background-color:black;
+  color: #fff;
+
+}
+.wave2{
+  width: 100%;
+}
+.footer-box .fa{
+  
+  margin-right: 10px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: rgba(36, 35, 35, 0.692);
+}
+#footer p{
+  padding-top: 5px;
+  height: 50px;
+  background-image: linear-gradient(to right, rgb(197, 52, 81), black);
+}
+
+
+
